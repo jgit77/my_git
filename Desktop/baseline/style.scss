@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 75%;
+  ackground: url(./18.png);
+}
+
+html > body {
+  font-size: 12px;
+}
+
+#container {
+  height: 72px;
+}
+
+footer {
+  height: 72px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+h1 span.one {
+  color: #3c798e;
+}
+
+#nav {
+  margin-top: px;
+  margin-left: 800px;
+  li {
+    list-style: none;
+    float: left;
+    a {
+      font-size: 1.5em;
+      color: black;
+      .two {
+        color: #3c798e;
+      }
+    }
+  }
+}
+
+/*outside of example.css*/
+
+#slide_1 {
+  width: 940px;
+  height: 526px;
+  h1 {
+    margin-top: 180px;
+    margin-left: 50px;
+    width: 580px;
+    float: left;
+  }
+}
+
+#me {
+  float: right;
+  margin-top: 130px;
+}
+
+/*end outside of example.css*/
+
+p {
+  line-height: 1.5em;
+}
+
+#header {
+  background-color: #ff0000;
+  height: 108px;
+  width: 100%;
+  h1 {
+    font-family: 'chunkfiveroman';
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+  }
+}
+
+#logo_main {
+  width: 960px;
+  margin: 0 auto;
+  h1 {
+    font-family: arial;
+    font-size: 2.75em;
+    font-weight: lighter;
+    display: block;
+    float: left;
+  }
+}
+
+.container_12! {}
+
+#main {
+  height: 1000px;
+}
+
+.grid_8 {
+  height: 810px;
+  float: left;
+}
+
+#box_1 {
+  height: 160px;
+  float: left;
+  background: url(./img/aim&arrow.jpg);
+}
+
+#box_2 {
+  height: 160px;
+  float: left;
+  background: url(./img/orphans.jpg);
+}
+
+#box_3 {
+  height: 160px;
+  float: left;
+  background: url(./img/ingrid.jpg);
+}
+
+@font-face {
+  font-family: 'chunkfiveroman';
+  src: url('chunkfive-webfont.eot');
+  src: url('chunkfive-webfont.eot?#iefix') format("embedded-opentype"), url('chunkfive-webfont.woff') format("woff"), url('chunkfive-webfont.ttf') format("truetype"), url('chunkfive-webfont.svg#chunkfiveroman') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*slidenav*/
+
+#slides {
+  .slidesjs-navigation {
+    margin-top: 3px;
+  }
+  .slidesjs-previous, .slidesjs-next {
+    margin-right: 5px;
+    float: left;
+  }
+}
+
+.slidesjs-pagination {
+  margin: 6px 0 0;
+  float: right;
+  list-style: none;
+  li {
+    float: left;
+    margin: 0 1px;
+    a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+      &.active {
+        background-position: 0 -13px;
+      }
+      &:hover {
+        &.active {
+          background-position: 0 -13px;
+        }
+        background-position: 0 -26px;
+      }
+    }
+  }
+}
+
+#slides a {
+  &:link, &:visited {
+    color: #333333;
+  }
+  &:hover, &:active {
+    color: #9e2020;
+  }
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+/*slivenav end*/

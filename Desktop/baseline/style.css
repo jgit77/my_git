@@ -1,0 +1,210 @@
+/* line 1, style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, style.scss */
+body {
+  font-size: 75%;
+  ackground: url(./18.png);
+}
+
+/* line 11, style.scss */
+html > body {
+  font-size: 12px;
+}
+
+/* line 15, style.scss */
+#container {
+  height: 72px;
+}
+
+/* line 19, style.scss */
+footer {
+  height: 72px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+/* line 25, style.scss */
+h1 span.one {
+  color: #3c798e;
+}
+
+/* line 29, style.scss */
+#nav {
+  margin-top: px;
+  margin-left: 800px;
+}
+/* line 32, style.scss */
+#nav li {
+  list-style: none;
+  float: left;
+}
+/* line 35, style.scss */
+#nav li a {
+  font-size: 1.5em;
+  color: black;
+}
+/* line 38, style.scss */
+#nav li a .two {
+  color: #3c798e;
+}
+
+/*outside of example.css*/
+/* line 47, style.scss */
+#slide_1 {
+  width: 940px;
+  height: 526px;
+}
+/* line 50, style.scss */
+#slide_1 h1 {
+  margin-top: 180px;
+  margin-left: 50px;
+  width: 580px;
+  float: left;
+}
+
+/* line 58, style.scss */
+#me {
+  float: right;
+  margin-top: 130px;
+}
+
+/*end outside of example.css*/
+/* line 65, style.scss */
+p {
+  line-height: 1.5em;
+}
+
+/* line 69, style.scss */
+#header {
+  background-color: #ff0000;
+  height: 108px;
+  width: 100%;
+}
+/* line 73, style.scss */
+#header h1 {
+  font-family: 'chunkfiveroman';
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+/* line 82, style.scss */
+#logo_main {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 85, style.scss */
+#logo_main h1 {
+  font-family: arial;
+  font-size: 2.75em;
+  font-weight: lighter;
+  display: block;
+  float: left;
+}
+
+/* line 96, style.scss */
+#main {
+  height: 1000px;
+}
+
+/* line 100, style.scss */
+.grid_8 {
+  height: 810px;
+  float: left;
+}
+
+/* line 105, style.scss */
+#box_1 {
+  height: 160px;
+  float: left;
+  background: url(./img/aim&arrow.jpg);
+}
+
+/* line 111, style.scss */
+#box_2 {
+  height: 160px;
+  float: left;
+  background: url(./img/orphans.jpg);
+}
+
+/* line 117, style.scss */
+#box_3 {
+  height: 160px;
+  float: left;
+  background: url(./img/ingrid.jpg);
+}
+
+@font-face {
+  font-family: 'chunkfiveroman';
+  src: url("chunkfive-webfont.eot");
+  src: url("chunkfive-webfont.eot?#iefix") format("embedded-opentype"), url("chunkfive-webfont.woff") format("woff"), url("chunkfive-webfont.ttf") format("truetype"), url("chunkfive-webfont.svg#chunkfiveroman") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*slidenav*/
+/* line 135, style.scss */
+#slides .slidesjs-navigation {
+  margin-top: 3px;
+}
+/* line 138, style.scss */
+#slides .slidesjs-previous, #slides .slidesjs-next {
+  margin-right: 5px;
+  float: left;
+}
+
+/* line 144, style.scss */
+.slidesjs-pagination {
+  margin: 6px 0 0;
+  float: right;
+  list-style: none;
+}
+/* line 148, style.scss */
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+/* line 151, style.scss */
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+/* line 160, style.scss */
+.slidesjs-pagination li a.active {
+  background-position: 0 -13px;
+}
+/* line 163, style.scss */
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px;
+}
+/* line 164, style.scss */
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px;
+}
+
+/* line 174, style.scss */
+#slides a:link, #slides a:visited {
+  color: #333333;
+}
+/* line 177, style.scss */
+#slides a:hover, #slides a:active {
+  color: #9e2020;
+}
+
+/* line 182, style.scss */
+.navbar {
+  overflow: hidden;
+}
+
+/*slivenav end*/
